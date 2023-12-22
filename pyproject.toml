@@ -1,9 +1,9 @@
 [build-system]
 requires = ["hatchling"]
-build-backend = ["hatchling.build"]
+build-backend = "hatchling.build"
 
 [project]
-name = "xmlrpc-client-requests"
+name = "xmlrpc_client_requests"
 version = "0.0.1"
 authors = [
     { name="Stephan Diehl", email="stephan.diehl@ableton.com"},
@@ -11,8 +11,15 @@ authors = [
 description = "A simple XmlRpc client that runs on requests"
 readme = "README.md"
 requires-python = ">=3.8"
+dependencies = [
+    "requests",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[project.urls]
+Homepage = "https://github.com/stedi67/xmlrpc-client-requests"
+Issues = "https://github.com/stedi67/xmlrpc-client-requests/issues"
