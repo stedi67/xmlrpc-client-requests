@@ -1,6 +1,5 @@
 import threading
 import unittest
-import xmlrpc.client as xmlrpclib
 import xmlrpc.server
 
 import xmlrpc_client_requests.client
