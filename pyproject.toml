@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = ["hatchling.build"]
+
+[project]
+name = "xmlrpc-client-requests"
+version = "0.0.1"
+authors = [
+    { name="Stephan Diehl", email="stephan.diehl@ableton.com"},
+]
+description = "A simple XmlRpc client that runs on requests"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
